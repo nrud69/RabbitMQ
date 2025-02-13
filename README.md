@@ -37,10 +37,17 @@ git clone https://github.com/nrud69/RabbitMQ.git
 
 Для изоляции зависимостей создайте виртуальную среду Python:
 
+### На macOS:
 ```bash
 python3 -m venv venv
-source venv/bin/activate  # Для macOS/Linux
-.\venv\Scripts\activate   # Для Windows
+source venv/bin/activate  
+
+```
+
+### На Windows:
+```bash
+python -m venv venv
+.\venv\Scripts\activate
 
 ```
 
